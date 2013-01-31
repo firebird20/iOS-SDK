@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'PayoneMobileSdk' target in the 'PayoneMobileSdk' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "Global.h"
+    #import "PayoneParameters.h"
+#endif

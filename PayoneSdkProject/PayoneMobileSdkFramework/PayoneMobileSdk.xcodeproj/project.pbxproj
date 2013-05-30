@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA335C62159A1C34002D4861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA335C60159A1C34002D4861 /* InfoPlist.strings */; };
+		AA335C6B159A1C59002D4861 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C69159A1C59002D4861 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335C6C159A1C59002D4861 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C6A159A1C59002D4861 /* Test.m */; };
+		AA335CD9159A1F26002D4861 /* ParameterCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C88159A1F26002D4861 /* ParameterCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CDA159A1F26002D4861 /* ParameterCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C89159A1F26002D4861 /* ParameterCollection.m */; };
+		AA335CDB159A1F26002D4861 /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C8C159A1F26002D4861 /* ASIAuthenticationDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CDC159A1F26002D4861 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C8D159A1F26002D4861 /* ASIAuthenticationDialog.m */; };
+		AA335CDD159A1F26002D4861 /* ASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C8E159A1F26002D4861 /* ASICacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CDE159A1F26002D4861 /* ASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C8F159A1F26002D4861 /* ASIDataCompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CDF159A1F26002D4861 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C90159A1F26002D4861 /* ASIDataCompressor.m */; };
+		AA335CE0159A1F26002D4861 /* ASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C91159A1F26002D4861 /* ASIDataDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CE1159A1F26002D4861 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C92159A1F26002D4861 /* ASIDataDecompressor.m */; };
+		AA335CE2159A1F26002D4861 /* ASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C93159A1F26002D4861 /* ASIDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CE3159A1F26002D4861 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C94159A1F26002D4861 /* ASIDownloadCache.m */; };
+		AA335CE4159A1F26002D4861 /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C95159A1F26002D4861 /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CE5159A1F26002D4861 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C96159A1F26002D4861 /* ASIFormDataRequest.m */; };
+		AA335CE6159A1F26002D4861 /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C97159A1F26002D4861 /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CE7159A1F26002D4861 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C98159A1F26002D4861 /* ASIHTTPRequest.m */; };
+		AA335CE8159A1F26002D4861 /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C99159A1F26002D4861 /* ASIHTTPRequestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CE9159A1F26002D4861 /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C9A159A1F26002D4861 /* ASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CEA159A1F26002D4861 /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C9B159A1F26002D4861 /* ASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CEB159A1F26002D4861 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C9C159A1F26002D4861 /* ASIInputStream.m */; };
+		AA335CEC159A1F26002D4861 /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C9D159A1F26002D4861 /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CED159A1F26002D4861 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335C9E159A1F26002D4861 /* ASINetworkQueue.m */; };
+		AA335CEE159A1F26002D4861 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335C9F159A1F26002D4861 /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CEF159A1F26002D4861 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CA1159A1F26002D4861 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF0159A1F26002D4861 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CA2159A1F26002D4861 /* Reachability.m */; };
+		AA335CF1159A1F26002D4861 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CA3159A1F26002D4861 /* NSString+MD5Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF2159A1F26002D4861 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CA4159A1F26002D4861 /* NSString+MD5Addition.m */; };
+		AA335CF3159A1F26002D4861 /* NSObject+SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CA6159A1F26002D4861 /* NSObject+SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF4159A1F26002D4861 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CA7159A1F26002D4861 /* NSObject+SBJson.m */; };
+		AA335CF5159A1F26002D4861 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CA8159A1F26002D4861 /* SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF6159A1F26002D4861 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CA9159A1F26002D4861 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF7159A1F26002D4861 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CAA159A1F26002D4861 /* SBJsonParser.m */; };
+		AA335CF8159A1F26002D4861 /* SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CAB159A1F26002D4861 /* SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CF9159A1F26002D4861 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CAC159A1F26002D4861 /* SBJsonStreamParser.m */; };
+		AA335CFA159A1F26002D4861 /* SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CAD159A1F26002D4861 /* SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CFB159A1F26002D4861 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CAE159A1F26002D4861 /* SBJsonStreamParserAccumulator.m */; };
+		AA335CFC159A1F26002D4861 /* SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CAF159A1F26002D4861 /* SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CFD159A1F26002D4861 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CB0159A1F26002D4861 /* SBJsonStreamParserAdapter.m */; };
+		AA335CFE159A1F26002D4861 /* SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CB1159A1F26002D4861 /* SBJsonStreamParserState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335CFF159A1F26002D4861 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CB2159A1F26002D4861 /* SBJsonStreamParserState.m */; };
+		AA335D00159A1F26002D4861 /* SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CB3159A1F26002D4861 /* SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D01159A1F26002D4861 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CB4159A1F26002D4861 /* SBJsonStreamWriter.m */; };
+		AA335D02159A1F26002D4861 /* SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CB5159A1F26002D4861 /* SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D03159A1F26002D4861 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CB6159A1F26002D4861 /* SBJsonStreamWriterAccumulator.m */; };
+		AA335D04159A1F26002D4861 /* SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CB7159A1F26002D4861 /* SBJsonStreamWriterState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D05159A1F26002D4861 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CB8159A1F26002D4861 /* SBJsonStreamWriterState.m */; };
+		AA335D06159A1F26002D4861 /* SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CB9159A1F26002D4861 /* SBJsonTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D07159A1F26002D4861 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CBA159A1F26002D4861 /* SBJsonTokeniser.m */; };
+		AA335D08159A1F26002D4861 /* SBJsonUTF8Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CBB159A1F26002D4861 /* SBJsonUTF8Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D09159A1F26002D4861 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CBC159A1F26002D4861 /* SBJsonUTF8Stream.m */; };
+		AA335D0A159A1F26002D4861 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CBD159A1F26002D4861 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D0B159A1F26002D4861 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CBE159A1F26002D4861 /* SBJsonWriter.m */; };
+		AA335D0C159A1F26002D4861 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CBF159A1F26002D4861 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D0D159A1F26002D4861 /* PayoneMobileSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CC0159A1F26002D4861 /* PayoneMobileSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D0F159A1F26002D4861 /* PayoneParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CC2159A1F26002D4861 /* PayoneParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D12159A1F26002D4861 /* PayoneSdkProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CC5159A1F26002D4861 /* PayoneSdkProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D13159A1F26002D4861 /* AuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CC7159A1F26002D4861 /* AuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D14159A1F26002D4861 /* AuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CC8159A1F26002D4861 /* AuthorizationRequest.m */; };
+		AA335D15159A1F26002D4861 /* CreditCardCheckRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CC9159A1F26002D4861 /* CreditCardCheckRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D16159A1F26002D4861 /* CreditCardCheckRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CCA159A1F26002D4861 /* CreditCardCheckRequest.m */; };
+		AA335D17159A1F26002D4861 /* IPayoneRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CCB159A1F26002D4861 /* IPayoneRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D18159A1F26002D4861 /* IPayoneRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CCC159A1F26002D4861 /* IPayoneRequest.m */; };
+		AA335D19159A1F26002D4861 /* PreAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CCD159A1F26002D4861 /* PreAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D1A159A1F26002D4861 /* PreAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CCE159A1F26002D4861 /* PreAuthorizationRequest.m */; };
+		AA335D1B159A1F26002D4861 /* AuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CD0159A1F26002D4861 /* AuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D1C159A1F26002D4861 /* AuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CD1159A1F26002D4861 /* AuthorizationResponse.m */; };
+		AA335D1D159A1F26002D4861 /* CreditCardCheckResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CD2159A1F26002D4861 /* CreditCardCheckResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D1E159A1F26002D4861 /* CreditCardCheckResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CD3159A1F26002D4861 /* CreditCardCheckResponse.m */; };
+		AA335D21159A1F26002D4861 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335CD7159A1F26002D4861 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D22159A1F26002D4861 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335CD8159A1F26002D4861 /* Utils.m */; };
+		AA335D55159A2473002D4861 /* PayoneRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = AA335D53159A2473002D4861 /* PayoneRequestFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA335D56159A2473002D4861 /* PayoneRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AA335D54159A2473002D4861 /* PayoneRequestFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA335C5B159A1C34002D4861 /* PayoneMobileSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayoneMobileSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA335C5F159A1C34002D4861 /* PayoneMobileSdk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayoneMobileSdk-Info.plist"; sourceTree = "<group>"; };
+		AA335C61159A1C34002D4861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA335C63159A1C34002D4861 /* PayoneMobileSdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayoneMobileSdk-Prefix.pch"; sourceTree = "<group>"; };
+		AA335C69159A1C59002D4861 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AA335C6A159A1C59002D4861 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		AA335C88159A1F26002D4861 /* ParameterCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterCollection.h; sourceTree = "<group>"; };
+		AA335C89159A1F26002D4861 /* ParameterCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterCollection.m; sourceTree = "<group>"; };
+		AA335C8C159A1F26002D4861 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		AA335C8D159A1F26002D4861 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		AA335C8E159A1F26002D4861 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		AA335C8F159A1F26002D4861 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		AA335C90159A1F26002D4861 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		AA335C91159A1F26002D4861 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		AA335C92159A1F26002D4861 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		AA335C93159A1F26002D4861 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		AA335C94159A1F26002D4861 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		AA335C95159A1F26002D4861 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		AA335C96159A1F26002D4861 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		AA335C97159A1F26002D4861 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		AA335C98159A1F26002D4861 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		AA335C99159A1F26002D4861 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		AA335C9A159A1F26002D4861 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		AA335C9B159A1F26002D4861 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		AA335C9C159A1F26002D4861 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		AA335C9D159A1F26002D4861 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		AA335C9E159A1F26002D4861 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		AA335C9F159A1F26002D4861 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		AA335CA1159A1F26002D4861 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AA335CA2159A1F26002D4861 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		AA335CA3159A1F26002D4861 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		AA335CA4159A1F26002D4861 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		AA335CA6159A1F26002D4861 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		AA335CA7159A1F26002D4861 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		AA335CA8159A1F26002D4861 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		AA335CA9159A1F26002D4861 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		AA335CAA159A1F26002D4861 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		AA335CAB159A1F26002D4861 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		AA335CAC159A1F26002D4861 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		AA335CAD159A1F26002D4861 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		AA335CAE159A1F26002D4861 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		AA335CAF159A1F26002D4861 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		AA335CB0159A1F26002D4861 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		AA335CB1159A1F26002D4861 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		AA335CB2159A1F26002D4861 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		AA335CB3159A1F26002D4861 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		AA335CB4159A1F26002D4861 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		AA335CB5159A1F26002D4861 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		AA335CB6159A1F26002D4861 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		AA335CB7159A1F26002D4861 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		AA335CB8159A1F26002D4861 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		AA335CB9159A1F26002D4861 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		AA335CBA159A1F26002D4861 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		AA335CBB159A1F26002D4861 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		AA335CBC159A1F26002D4861 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		AA335CBD159A1F26002D4861 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		AA335CBE159A1F26002D4861 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		AA335CBF159A1F26002D4861 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		AA335CC0159A1F26002D4861 /* PayoneMobileSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayoneMobileSdk.h; sourceTree = "<group>"; };
+		AA335CC2159A1F26002D4861 /* PayoneParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayoneParameters.h; sourceTree = "<group>"; };
+		AA335CC5159A1F26002D4861 /* PayoneSdkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayoneSdkProtocol.h; sourceTree = "<group>"; };
+		AA335CC7159A1F26002D4861 /* AuthorizationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationRequest.h; sourceTree = "<group>"; };
+		AA335CC8159A1F26002D4861 /* AuthorizationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationRequest.m; sourceTree = "<group>"; };
+		AA335CC9159A1F26002D4861 /* CreditCardCheckRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardCheckRequest.h; sourceTree = "<group>"; };
+		AA335CCA159A1F26002D4861 /* CreditCardCheckRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardCheckRequest.m; sourceTree = "<group>"; };
+		AA335CCB159A1F26002D4861 /* IPayoneRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPayoneRequest.h; sourceTree = "<group>"; };
+		AA335CCC159A1F26002D4861 /* IPayoneRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPayoneRequest.m; sourceTree = "<group>"; };
+		AA335CCD159A1F26002D4861 /* PreAuthorizationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreAuthorizationRequest.h; sourceTree = "<group>"; };
+		AA335CCE159A1F26002D4861 /* PreAuthorizationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreAuthorizationRequest.m; sourceTree = "<group>"; };
+		AA335CD0159A1F26002D4861 /* AuthorizationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationResponse.h; sourceTree = "<group>"; };
+		AA335CD1159A1F26002D4861 /* AuthorizationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationResponse.m; sourceTree = "<group>"; };
+		AA335CD2159A1F26002D4861 /* CreditCardCheckResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardCheckResponse.h; sourceTree = "<group>"; };
+		AA335CD3159A1F26002D4861 /* CreditCardCheckResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardCheckResponse.m; sourceTree = "<group>"; };
+		AA335CD7159A1F26002D4861 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		AA335CD8159A1F26002D4861 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		AA335D53159A2473002D4861 /* PayoneRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayoneRequestFactory.h; sourceTree = "<group>"; };
+		AA335D54159A2473002D4861 /* PayoneRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayoneRequestFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA335C55159A1C34002D4861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA335C4C159A1C34002D4861 = {
+			isa = PBXGroup;
+			children = (
+				AA335C85159A1F26002D4861 /* build */,
+				AA335C87159A1F26002D4861 /* builder */,
+				AA335C8A159A1F26002D4861 /* external */,
+				AA335CBF159A1F26002D4861 /* Global.h */,
+				AA335D53159A2473002D4861 /* PayoneRequestFactory.h */,
+				AA335D54159A2473002D4861 /* PayoneRequestFactory.m */,
+				AA335CC0159A1F26002D4861 /* PayoneMobileSdk.h */,
+				AA335CC2159A1F26002D4861 /* PayoneParameters.h */,
+				AA335CC5159A1F26002D4861 /* PayoneSdkProtocol.h */,
+				AA335CC6159A1F26002D4861 /* requests */,
+				AA335CCF159A1F26002D4861 /* responses */,
+				AA335CD4159A1F26002D4861 /* utils */,
+				AA335C69159A1C59002D4861 /* Test.h */,
+				AA335C6A159A1C59002D4861 /* Test.m */,
+				AA335C5D159A1C34002D4861 /* PayoneMobileSdk */,
+				AA335C5C159A1C34002D4861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA335C5C159A1C34002D4861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C5B159A1C34002D4861 /* PayoneMobileSdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA335C5D159A1C34002D4861 /* PayoneMobileSdk */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C5E159A1C34002D4861 /* Supporting Files */,
+			);
+			path = PayoneMobileSdk;
+			sourceTree = "<group>";
+		};
+		AA335C5E159A1C34002D4861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C5F159A1C34002D4861 /* PayoneMobileSdk-Info.plist */,
+				AA335C60159A1C34002D4861 /* InfoPlist.strings */,
+				AA335C63159A1C34002D4861 /* PayoneMobileSdk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA335C85159A1F26002D4861 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C86159A1F26002D4861 /* PayoneMobileSdk.build */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		AA335C86159A1F26002D4861 /* PayoneMobileSdk.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PayoneMobileSdk.build;
+			sourceTree = "<group>";
+		};
+		AA335C87159A1F26002D4861 /* builder */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C88159A1F26002D4861 /* ParameterCollection.h */,
+				AA335C89159A1F26002D4861 /* ParameterCollection.m */,
+			);
+			path = builder;
+			sourceTree = "<group>";
+		};
+		AA335C8A159A1F26002D4861 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C8B159A1F26002D4861 /* ASIHTTPRequest */,
+				AA335CA3159A1F26002D4861 /* NSString+MD5Addition.h */,
+				AA335CA4159A1F26002D4861 /* NSString+MD5Addition.m */,
+				AA335CA5159A1F26002D4861 /* SBJson */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		AA335C8B159A1F26002D4861 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				AA335C8C159A1F26002D4861 /* ASIAuthenticationDialog.h */,
+				AA335C8D159A1F26002D4861 /* ASIAuthenticationDialog.m */,
+				AA335C8E159A1F26002D4861 /* ASICacheDelegate.h */,
+				AA335C8F159A1F26002D4861 /* ASIDataCompressor.h */,
+				AA335C90159A1F26002D4861 /* ASIDataCompressor.m */,
+				AA335C91159A1F26002D4861 /* ASIDataDecompressor.h */,
+				AA335C92159A1F26002D4861 /* ASIDataDecompressor.m */,
+				AA335C93159A1F26002D4861 /* ASIDownloadCache.h */,
+				AA335C94159A1F26002D4861 /* ASIDownloadCache.m */,
+				AA335C95159A1F26002D4861 /* ASIFormDataRequest.h */,
+				AA335C96159A1F26002D4861 /* ASIFormDataRequest.m */,
+				AA335C97159A1F26002D4861 /* ASIHTTPRequest.h */,
+				AA335C98159A1F26002D4861 /* ASIHTTPRequest.m */,
+				AA335C99159A1F26002D4861 /* ASIHTTPRequestConfig.h */,
+				AA335C9A159A1F26002D4861 /* ASIHTTPRequestDelegate.h */,
+				AA335C9B159A1F26002D4861 /* ASIInputStream.h */,
+				AA335C9C159A1F26002D4861 /* ASIInputStream.m */,
+				AA335C9D159A1F26002D4861 /* ASINetworkQueue.h */,
+				AA335C9E159A1F26002D4861 /* ASINetworkQueue.m */,
+				AA335C9F159A1F26002D4861 /* ASIProgressDelegate.h */,
+				AA335CA0159A1F26002D4861 /* Reachability */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		AA335CA0159A1F26002D4861 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AA335CA1159A1F26002D4861 /* Reachability.h */,
+				AA335CA2159A1F26002D4861 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		AA335CA5159A1F26002D4861 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				AA335CA6159A1F26002D4861 /* NSObject+SBJson.h */,
+				AA335CA7159A1F26002D4861 /* NSObject+SBJson.m */,
+				AA335CA8159A1F26002D4861 /* SBJson.h */,
+				AA335CA9159A1F26002D4861 /* SBJsonParser.h */,
+				AA335CAA159A1F26002D4861 /* SBJsonParser.m */,
+				AA335CAB159A1F26002D4861 /* SBJsonStreamParser.h */,
+				AA335CAC159A1F26002D4861 /* SBJsonStreamParser.m */,
+				AA335CAD159A1F26002D4861 /* SBJsonStreamParserAccumulator.h */,
+				AA335CAE159A1F26002D4861 /* SBJsonStreamParserAccumulator.m */,
+				AA335CAF159A1F26002D4861 /* SBJsonStreamParserAdapter.h */,
+				AA335CB0159A1F26002D4861 /* SBJsonStreamParserAdapter.m */,
+				AA335CB1159A1F26002D4861 /* SBJsonStreamParserState.h */,
+				AA335CB2159A1F26002D4861 /* SBJsonStreamParserState.m */,
+				AA335CB3159A1F26002D4861 /* SBJsonStreamWriter.h */,
+				AA335CB4159A1F26002D4861 /* SBJsonStreamWriter.m */,
+				AA335CB5159A1F26002D4861 /* SBJsonStreamWriterAccumulator.h */,
+				AA335CB6159A1F26002D4861 /* SBJsonStreamWriterAccumulator.m */,
+				AA335CB7159A1F26002D4861 /* SBJsonStreamWriterState.h */,
+				AA335CB8159A1F26002D4861 /* SBJsonStreamWriterState.m */,
+				AA335CB9159A1F26002D4861 /* SBJsonTokeniser.h */,
+				AA335CBA159A1F26002D4861 /* SBJsonTokeniser.m */,
+				AA335CBB159A1F26002D4861 /* SBJsonUTF8Stream.h */,
+				AA335CBC159A1F26002D4861 /* SBJsonUTF8Stream.m */,
+				AA335CBD159A1F26002D4861 /* SBJsonWriter.h */,
+				AA335CBE159A1F26002D4861 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		AA335CC6159A1F26002D4861 /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				AA335CC7159A1F26002D4861 /* AuthorizationRequest.h */,
+				AA335CC8159A1F26002D4861 /* AuthorizationRequest.m */,
+				AA335CC9159A1F26002D4861 /* CreditCardCheckRequest.h */,
+				AA335CCA159A1F26002D4861 /* CreditCardCheckRequest.m */,
+				AA335CCB159A1F26002D4861 /* IPayoneRequest.h */,
+				AA335CCC159A1F26002D4861 /* IPayoneRequest.m */,
+				AA335CCD159A1F26002D4861 /* PreAuthorizationRequest.h */,
+				AA335CCE159A1F26002D4861 /* PreAuthorizationRequest.m */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		AA335CCF159A1F26002D4861 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				AA335CD0159A1F26002D4861 /* AuthorizationResponse.h */,
+				AA335CD1159A1F26002D4861 /* AuthorizationResponse.m */,
+				AA335CD2159A1F26002D4861 /* CreditCardCheckResponse.h */,
+				AA335CD3159A1F26002D4861 /* CreditCardCheckResponse.m */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		AA335CD4159A1F26002D4861 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA335CD7159A1F26002D4861 /* Utils.h */,
+				AA335CD8159A1F26002D4861 /* Utils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA335C56159A1C34002D4861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA335C6B159A1C59002D4861 /* Test.h in Headers */,
+				AA335CD9159A1F26002D4861 /* ParameterCollection.h in Headers */,
+				AA335CDB159A1F26002D4861 /* ASIAuthenticationDialog.h in Headers */,
+				AA335CDD159A1F26002D4861 /* ASICacheDelegate.h in Headers */,
+				AA335CDE159A1F26002D4861 /* ASIDataCompressor.h in Headers */,
+				AA335CE0159A1F26002D4861 /* ASIDataDecompressor.h in Headers */,
+				AA335CE2159A1F26002D4861 /* ASIDownloadCache.h in Headers */,
+				AA335CE4159A1F26002D4861 /* ASIFormDataRequest.h in Headers */,
+				AA335CE6159A1F26002D4861 /* ASIHTTPRequest.h in Headers */,
+				AA335CE8159A1F26002D4861 /* ASIHTTPRequestConfig.h in Headers */,
+				AA335CE9159A1F26002D4861 /* ASIHTTPRequestDelegate.h in Headers */,
+				AA335CEA159A1F26002D4861 /* ASIInputStream.h in Headers */,
+				AA335CEC159A1F26002D4861 /* ASINetworkQueue.h in Headers */,
+				AA335CEE159A1F26002D4861 /* ASIProgressDelegate.h in Headers */,
+				AA335CEF159A1F26002D4861 /* Reachability.h in Headers */,
+				AA335CF1159A1F26002D4861 /* NSString+MD5Addition.h in Headers */,
+				AA335CF3159A1F26002D4861 /* NSObject+SBJson.h in Headers */,
+				AA335CF5159A1F26002D4861 /* SBJson.h in Headers */,
+				AA335CF6159A1F26002D4861 /* SBJsonParser.h in Headers */,
+				AA335CF8159A1F26002D4861 /* SBJsonStreamParser.h in Headers */,
+				AA335CFA159A1F26002D4861 /* SBJsonStreamParserAccumulator.h in Headers */,
+				AA335CFC159A1F26002D4861 /* SBJsonStreamParserAdapter.h in Headers */,
+				AA335CFE159A1F26002D4861 /* SBJsonStreamParserState.h in Headers */,
+				AA335D00159A1F26002D4861 /* SBJsonStreamWriter.h in Headers */,
+				AA335D02159A1F26002D4861 /* SBJsonStreamWriterAccumulator.h in Headers */,
+				AA335D04159A1F26002D4861 /* SBJsonStreamWriterState.h in Headers */,
+				AA335D06159A1F26002D4861 /* SBJsonTokeniser.h in Headers */,
+				AA335D08159A1F26002D4861 /* SBJsonUTF8Stream.h in Headers */,
+				AA335D0A159A1F26002D4861 /* SBJsonWriter.h in Headers */,
+				AA335D0C159A1F26002D4861 /* Global.h in Headers */,
+				AA335D0D159A1F26002D4861 /* PayoneMobileSdk.h in Headers */,
+				AA335D0F159A1F26002D4861 /* PayoneParameters.h in Headers */,
+				AA335D12159A1F26002D4861 /* PayoneSdkProtocol.h in Headers */,
+				AA335D13159A1F26002D4861 /* AuthorizationRequest.h in Headers */,
+				AA335D15159A1F26002D4861 /* CreditCardCheckRequest.h in Headers */,
+				AA335D17159A1F26002D4861 /* IPayoneRequest.h in Headers */,
+				AA335D19159A1F26002D4861 /* PreAuthorizationRequest.h in Headers */,
+				AA335D1B159A1F26002D4861 /* AuthorizationResponse.h in Headers */,
+				AA335D1D159A1F26002D4861 /* CreditCardCheckResponse.h in Headers */,
+				AA335D21159A1F26002D4861 /* Utils.h in Headers */,
+				AA335D55159A2473002D4861 /* PayoneRequestFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA335C5A159A1C34002D4861 /* PayoneMobileSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA335C66159A1C34002D4861 /* Build configuration list for PBXNativeTarget "PayoneMobileSdk" */;
+			buildPhases = (
+				AA335C53159A1C34002D4861 /* ShellScript */,
+				AA335C54159A1C34002D4861 /* Sources */,
+				AA335C55159A1C34002D4861 /* Frameworks */,
+				AA335C56159A1C34002D4861 /* Headers */,
+				AA335C57159A1C34002D4861 /* Resources */,
+				AA335C58159A1C34002D4861 /* ShellScript */,
+				AA335C59159A1C34002D4861 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayoneMobileSdk;
+			productName = PayoneMobileSdk;
+			productReference = AA335C5B159A1C34002D4861 /* PayoneMobileSdk.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA335C4E159A1C34002D4861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = AA335C51159A1C34002D4861 /* Build configuration list for PBXProject "PayoneMobileSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA335C4C159A1C34002D4861;
+			productRefGroup = AA335C5C159A1C34002D4861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA335C5A159A1C34002D4861 /* PayoneMobileSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA335C57159A1C34002D4861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA335C62159A1C34002D4861 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA335C53159A1C34002D4861 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		AA335C58159A1C34002D4861 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		AA335C59159A1C34002D4861 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA335C54159A1C34002D4861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA335C6C159A1C59002D4861 /* Test.m in Sources */,
+				AA335CDA159A1F26002D4861 /* ParameterCollection.m in Sources */,
+				AA335CDC159A1F26002D4861 /* ASIAuthenticationDialog.m in Sources */,
+				AA335CDF159A1F26002D4861 /* ASIDataCompressor.m in Sources */,
+				AA335CE1159A1F26002D4861 /* ASIDataDecompressor.m in Sources */,
+				AA335CE3159A1F26002D4861 /* ASIDownloadCache.m in Sources */,
+				AA335CE5159A1F26002D4861 /* ASIFormDataRequest.m in Sources */,
+				AA335CE7159A1F26002D4861 /* ASIHTTPRequest.m in Sources */,
+				AA335CEB159A1F26002D4861 /* ASIInputStream.m in Sources */,
+				AA335CED159A1F26002D4861 /* ASINetworkQueue.m in Sources */,
+				AA335CF0159A1F26002D4861 /* Reachability.m in Sources */,
+				AA335CF2159A1F26002D4861 /* NSString+MD5Addition.m in Sources */,
+				AA335CF4159A1F26002D4861 /* NSObject+SBJson.m in Sources */,
+				AA335CF7159A1F26002D4861 /* SBJsonParser.m in Sources */,
+				AA335CF9159A1F26002D4861 /* SBJsonStreamParser.m in Sources */,
+				AA335CFB159A1F26002D4861 /* SBJsonStreamParserAccumulator.m in Sources */,
+				AA335CFD159A1F26002D4861 /* SBJsonStreamParserAdapter.m in Sources */,
+				AA335CFF159A1F26002D4861 /* SBJsonStreamParserState.m in Sources */,
+				AA335D01159A1F26002D4861 /* SBJsonStreamWriter.m in Sources */,
+				AA335D03159A1F26002D4861 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				AA335D05159A1F26002D4861 /* SBJsonStreamWriterState.m in Sources */,
+				AA335D07159A1F26002D4861 /* SBJsonTokeniser.m in Sources */,
+				AA335D09159A1F26002D4861 /* SBJsonUTF8Stream.m in Sources */,
+				AA335D0B159A1F26002D4861 /* SBJsonWriter.m in Sources */,
+				AA335D14159A1F26002D4861 /* AuthorizationRequest.m in Sources */,
+				AA335D16159A1F26002D4861 /* CreditCardCheckRequest.m in Sources */,
+				AA335D18159A1F26002D4861 /* IPayoneRequest.m in Sources */,
+				AA335D1A159A1F26002D4861 /* PreAuthorizationRequest.m in Sources */,
+				AA335D1C159A1F26002D4861 /* AuthorizationResponse.m in Sources */,
+				AA335D1E159A1F26002D4861 /* CreditCardCheckResponse.m in Sources */,
+				AA335D22159A1F26002D4861 /* Utils.m in Sources */,
+				AA335D56159A2473002D4861 /* PayoneRequestFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA335C60159A1C34002D4861 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA335C61159A1C34002D4861 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA335C64159A1C34002D4861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA335C65159A1C34002D4861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA335C67159A1C34002D4861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayoneMobileSdk/PayoneMobileSdk-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "PayoneMobileSdk/PayoneMobileSdk-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AA335C68159A1C34002D4861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayoneMobileSdk/PayoneMobileSdk-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "PayoneMobileSdk/PayoneMobileSdk-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA335C51159A1C34002D4861 /* Build configuration list for PBXProject "PayoneMobileSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA335C64159A1C34002D4861 /* Debug */,
+				AA335C65159A1C34002D4861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA335C66159A1C34002D4861 /* Build configuration list for PBXNativeTarget "PayoneMobileSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA335C67159A1C34002D4861 /* Debug */,
+				AA335C68159A1C34002D4861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA335C4E159A1C34002D4861 /* Project object */;
+}

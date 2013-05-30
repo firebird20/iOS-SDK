@@ -1,0 +1,78 @@
+/* 
+  Localizeable.strings
+  PayoneMobileSdkDemoApplication
+
+  Created by Rainer Grinninger on 21.08.12.
+  Copyright (c) 2012 Exozet. All rights reserved.
+*/
+
+"keyWrongPassword" = "Falsches Passwort!";
+"keyEditButton" = "Settings";
+"keyPasswordTitle" = "Passworteingabe";
+
+"kCountrySelectionDescription" = "Bitte wählen Sie ein Land";
+
+// Alerts and Messages
+"kMissingInputTitle"    = "Fehlende Angabe";
+"kMissingInputMessage"    = "Bitte füllen Sie alle Felder aus";
+"kWrongPasswordTitle"   = "Falsches Passwort";
+"kWrongPasswordMessage" = "Bitte versuchen Sie es noch einmal";
+"kPasswordTryAgain"     = "Erneut eingeben";
+
+// view titles
+"kPersonalInput"                = "Persönliche Daten";
+"kPaymentTypeSelectionInput"    = "Zahlungsart";
+"kPaymentSummary"               = "Übersicht";
+"kPaymentMain"                  = "Neue Transaktion";
+
+// Settings
+"kSettingsMid"          = "Mid:";
+"kSettingsPortalId"     = "Portal Id:";
+"kSettingsSubAccount"   = "Sub Account Id:";
+"kSettingsKey"          = "Passwort:";
+"kSettingsPassword"     = "Passwort ändern";
+"kSettingsModeLive"     = "Live";
+"kSettingsMode"       = "Betriebsmodus:";
+"kSettingsCurrency"   = "Aktuelle Währung:";
+"kSettingsVisa"       = "Visa";
+"kSettingsDebit"      = "Lastschrift";
+"kSettingsAmex"       = "Amex";
+"kSettingsMastercard" = "Mastercard";
+"kSettingsInvoice"    = "Rechnung";
+
+
+
+"kSettingsCurrencyEur"    = "EUR";
+"kSettingsCurrencyAustria"    = "EUR";
+"kSettingsCurrencyDenmark"    = "EUR";
+
+// Countries
+"kSettingsCountry1"    = "Deutschland";
+"kSettingsCountry2"    = "Österreich";
+"kSettingsCountry3"    = "Niederlande";
+
+
+// Payment
+"kPaymentTitleDebit"                = "Debit";
+"kPaymentTitleCreditcard"           = "Creditcard";
+"keyPaymentSettingdRequestTypeLive" = "Live";
+"keyPaymentSettingdRequestTypeTest" = "Test";
+"kButtonTitleAuthorize"             = "Authorize";
+"kButtonTitlePreAuthorize"          = "Preauthorize";
+"kResultAlertTitle"                 = "Payment Request Result";
+"kOkBUttonTitle"                    = "OK";
+"kBackToMenu"                       = "Hauptmenü";
+
+"kPaymentBillingDetailsTitle"       = "Rechnung";
+"kPaymentDebitDetailsTitle"         = "Lastschrift";
+"kPaymentCredicardDetailsTitle"     = "Kreditkarte";
+"kCredicardTitleMaster"         = "Mastercard";
+"kCredicardTitleVisa"           = "Visa";
+"kCredicardTitleMaestroUk"      = "Maestro UK";
+"kCredicardTitleMaestroInt"     = "Maestro Int";
+"kCredicardTitleJCB"            = "JCB";
+"kCredicardTitleDiscover"       = "Discover";
+"kCredicardTitleDiners"         = "Diners";
+"kCredicardTitleCaretBleue"     = "Carte Bleue";
+"kCredicardTitleAmex"           = "Amex";
+
